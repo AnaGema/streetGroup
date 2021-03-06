@@ -1,9 +1,9 @@
 <?php
 
-Class UploadFiles
+class UploadFiles
 {
-    protected $titles;
-    protected $persons;
+    public $titles;
+    public $persons;
 
     /**
      * UploadFiles constructor.
@@ -32,6 +32,7 @@ Class UploadFiles
         } catch(Exception $e){
             throw new Exception('There was a problem '.$e->getMessage());
         }
+        return [];
     }
 
     /**
@@ -41,12 +42,11 @@ Class UploadFiles
      * @param array $data
      * @return array
      */
-    protected function getCleanArray(array $data): array
+    public function getCleanArray(array $data): array
     {
         $content = file_get_contents($data['file']['tmp_name']);
         $lines = explode(',', $content);
         unset($lines[0]); // remove first line
-        unset($lines[count($lines)]); // remove last line
 
         return $lines;
     }
@@ -55,7 +55,7 @@ Class UploadFiles
      * @param array $lines
      * @return array
      */
-    protected function outputContentByLines(array $lines): array
+    public function outputContentByLines(array $lines): array
     {
         // Check if the input has one or two people
         foreach($lines as $fileLine) {
@@ -94,13 +94,13 @@ Class UploadFiles
      * @param array $personElements
      * @return null[]
      */
-    protected function getPersonArray(array $personElements): array
+    public function getPersonArray(array $personElements): array
     {
         $newPerson = [
             'title'       => null,
             'initial'     => null,
             'forename'    => null,
-            'surname'     => null,
+            'surname'     => null
         ];
 
         foreach($personElements as $key => $element) {

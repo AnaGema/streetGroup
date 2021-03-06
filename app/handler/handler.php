@@ -1,5 +1,5 @@
 <?php
-require_once '../upload.php';
+require_once '../UploadFile.php';
 
 if (!empty($_FILES['file']['error']) && $_FILES['file']['error'] === 1) {
     echo  404;
