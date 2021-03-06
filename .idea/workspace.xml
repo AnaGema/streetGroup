@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74fa8d62-8821-4fa0-91c1-a64f9a048867" name="Default Changelist" comment="code enhancement" />
+    <list default="true" id="74fa8d62-8821-4fa0-91c1-a64f9a048867" name="Default Changelist" comment="Added fail method for error responses">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/streetGroup.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handler/handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/handler/handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614884071598</updated>
-      <workItem from="1614884072748" duration="28211000" />
+      <workItem from="1614884072748" duration="31001000" />
     </task>
     <task id="LOCAL-00001" summary="Changes to the existing code">
       <created>1615047852808</created>
@@ -117,7 +129,8 @@
     <MESSAGE value="Changes to the existing code" />
     <MESSAGE value="Unit testing" />
     <MESSAGE value="code enhancement" />
-    <option name="LAST_COMMIT_MESSAGE" value="code enhancement" />
+    <MESSAGE value="Added fail method for error responses" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added fail method for error responses" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="274" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615042911880">
@@ -148,9 +161,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="418" y="205" width="639" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1615044057197" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1615030280097">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1615060567192">
+      <screen x="0" y="23" width="1440" height="814" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1615030280097" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1615058083678" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.23.1440.814@0.23.1440.814" timestamp="1615060567192" />
   </component>
 </project>
