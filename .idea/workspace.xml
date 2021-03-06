@@ -19,15 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74fa8d62-8821-4fa0-91c1-a64f9a048867" name="Default Changelist" comment="Changes to the existing code">
-      <change afterPath="$PROJECT_DIR$/tests/UploadTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/handler/handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/handler/handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/UploadFile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="74fa8d62-8821-4fa0-91c1-a64f9a048867" name="Default Changelist" comment="code enhancement" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,8 +73,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614884071598</updated>
-      <workItem from="1614884072748" duration="27908000" />
+      <workItem from="1614884072748" duration="28211000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes to the existing code">
+      <created>1615047852808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615047852808</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Unit testing">
+      <created>1615047874375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615047874375</updated>
+    </task>
+    <task id="LOCAL-00003" summary="code enhancement">
+      <created>1615048100929</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615048100929</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +115,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes to the existing code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to the existing code" />
+    <MESSAGE value="Unit testing" />
+    <MESSAGE value="code enhancement" />
+    <option name="LAST_COMMIT_MESSAGE" value="code enhancement" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="274" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615042911880">
@@ -124,10 +140,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1615021931891" />
-    <state x="529" y="191" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615047327636">
+    <state x="529" y="191" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615047885221">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="529" y="191" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1440.900@0.0.1440.900" timestamp="1615047327636" />
+    <state x="529" y="191" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1440.900@0.0.1440.900" timestamp="1615047885221" />
     <state x="418" y="205" width="639" height="490" key="find.popup" timestamp="1615044057197">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
