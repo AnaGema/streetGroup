@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../assets/fonts/RobotoCondensed-Regular.ttf');
+}
+body {
+    background-color: #1a1a1a;
+    color: #cccccc;
+    font-family: 'Roboto'!important;
+    font-size: 30pt;
+}
+.title-text {
+    text-align: center;
+    margin-top: 5%;
+}
+.upload-file {
+    margin-top: 5%;
+    font-size: 15pt;
+}
+.submit-btn {
+    float: right;
+    background-color: #cccccc;
+    color: #1a1a1a;
+    border: solid #1a1a1a;
+    border-radius: 10px;
+    font-size: 15pt;
+    margin-top: 5%;
+}
+.submit-btn:hover{
+    float: right;
+    background-color: #d9f2e6;
+    color: #206040;
+    border: solid #206040;
+    border-radius: 10px;
+    font-size: 15pt;
+    margin-top: 5%;
+}
