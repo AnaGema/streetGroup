@@ -12,25 +12,23 @@ $(function(){
             data: formData,
             contentType: false,
             processData: false,
-            success: function (data) {
-                if (data === '404'){
-                    $('.error-message').css('display', 'block');
-                } else {
-                    $('.upload-container').css('display', 'none');
-                    $('.upload-button').css('display', 'none');
-                    $('.csv-content').css('display', 'block');
+        }).done(function(response) {
+                $('.upload-container').css('display', 'none');
+                $('.upload-button').css('display', 'none');
+                $('.csv-content').css('display', 'block');
 
-                    let contentList = JSON.parse(data);
-                    let persons = '';
+                let contentList = JSON.parse(response);
+                let persons = '';
 
-                    $.each(contentList, function (index, element) {
-                        persons += getListWithFormat(element);
-                    });
+                $.each(contentList, function (index, element) {
+                    persons += getListWithFormat(element);
+                });
 
-                    $('.csv-content-list').append(persons);
-                }
-            }
-        });
+                $('.csv-content-list').append(persons);
+            })
+            .fail(function() {
+                $('.error-message').css('display', 'block');
+            });
     });
 
     /**
