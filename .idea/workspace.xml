@@ -19,13 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74fa8d62-8821-4fa0-91c1-a64f9a048867" name="Default Changelist" comment="">
+    <list default="true" id="74fa8d62-8821-4fa0-91c1-a64f9a048867" name="Default Changelist" comment="Changes to the existing code">
+      <change afterPath="$PROJECT_DIR$/tests/UploadTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/handler/handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/handler/handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/UploadFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614884071598</updated>
-      <workItem from="1614884072748" duration="22953000" />
+      <workItem from="1614884072748" duration="27908000" />
     </task>
     <servers />
   </component>
@@ -98,19 +99,39 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes to the existing code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes to the existing code" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1615024178485">
+    <state x="555" y="274" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615042911880">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1615024178485" />
+    <state x="555" y="274" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1615042911880" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615044459027">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1615044459027" />
+    <state x="484" y="183" key="NewPhpClassDialog" timestamp="1615043476526">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="484" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1615043476526" />
+    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1615043510482">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1615043510482" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1615021931891">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1615021931891" />
-    <state x="418" y="205" width="604" height="490" key="find.popup" timestamp="1615022417182">
+    <state x="529" y="191" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615047327636">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="418" y="205" width="604" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1615022417182" />
+    <state x="529" y="191" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1440.900@0.0.1440.900" timestamp="1615047327636" />
+    <state x="418" y="205" width="639" height="490" key="find.popup" timestamp="1615044057197">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="418" y="205" width="639" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1615044057197" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1615030280097">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
