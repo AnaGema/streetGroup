@@ -34,3 +34,22 @@ body {
     font-size: 15pt;
     margin-top: 5%;
 }
+.csv-content{
+    display: none;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 25pt;
+}
+.csv-content-list {
+    font-size: 14pt;
+    list-style-type: none;
+}
+.error-message {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    font-size: 15pt;
+    width: 50%;
+    text-align: center;
+    display: none;
+}

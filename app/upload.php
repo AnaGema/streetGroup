@@ -30,7 +30,7 @@ Class UploadFiles
                 return $this->outputContentByLines($lines);
             }
         } catch(Exception $e){
-
+            throw new Exception('There was a problem '.$e->getMessage());
         }
     }
 
@@ -74,8 +74,8 @@ Class UploadFiles
                 $personOne = $this->getPersonArray(explode(' ', $personsToSave[0]));
 
                 // Add, if needed, data from main person to the secondary
-                if (is_null($personOne['last_name'])) {
-                    $personOne['last_name'] = $personTwo['last_name'];
+                if (is_null($personOne['surname'])) {
+                    $personOne['surname'] = $personTwo['surname'];
                 }
 
                 array_push($this->persons, [
@@ -97,10 +97,10 @@ Class UploadFiles
     protected function getPersonArray(array $personElements): array
     {
         $newPerson = [
-            'title'         => null,
-            'initial'       => null,
-            'first_name'    => null,
-            'last_name'     => null,
+            'title'       => null,
+            'initial'     => null,
+            'forename'    => null,
+            'surname'     => null,
         ];
 
         foreach($personElements as $key => $element) {
@@ -118,9 +118,9 @@ Class UploadFiles
                 } else {
                     // Not the title or the initial of the person, check the last two options
                     if ($key === count($personElements)-1) { // if last in array surname
-                        $newPerson['last_name'] = $element;
+                        $newPerson['surname'] = $element;
                     } else {
-                        $newPerson['first_name'] = $element;
+                        $newPerson['forename'] = $element;
                     }
                 }
             }

@@ -2,8 +2,8 @@
 require_once '../upload.php';
 
 if (!empty($_FILES['file']['error']) && $_FILES['file']['error'] === 1) {
-    return 'There was an error uploading your file';
+    echo  404;
 } else {
     $upload = new UploadFiles();
-    return $upload->process($_FILES);
+    echo json_encode($upload->process($_FILES));
 }
