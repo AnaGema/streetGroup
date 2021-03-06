@@ -83,6 +83,9 @@ class UploadFiles
                 if (is_null($personOne['surname'])) {
                     $personOne['surname'] = $personTwo['surname'];
                 }
+                if (is_null($personTwo['surname'])) {
+                    $personTwo['surname'] = $personOne['surname'];
+                }
 
                 array_push($this->persons, [
                     'personOne' => $personOne,

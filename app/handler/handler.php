@@ -1,5 +1,5 @@
 <?php
-require_once '../UploadFile.php';
+require_once '../UploadFiles.php';
 
 if (!empty($_FILES['file']['error']) && $_FILES['file']['error'] === 1) {
     echo http_response_code(500);

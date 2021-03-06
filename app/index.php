@@ -1,5 +1,5 @@
 <?php
-include 'UploadFile.php';
+include 'UploadFiles.php';
 
 $upload = new UploadFiles();
 $upload->init();
