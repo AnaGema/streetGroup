@@ -1,4 +1,5 @@
 $(function(){
+
     $('.submit-btn').click(function() {
 
         let formData = new FormData();
@@ -9,8 +10,8 @@ $(function(){
             type: 'POST',
             url: 'handler/handler.php',
             data: formData,
-            contentType: false, //this is requireded please see answers above
-            processData: false, //this is requireded please see answers above
+            contentType: false,
+            processData: false,
             success: function (data) {
                 if (data === '404'){
                     $('.error-message').css('display', 'block');

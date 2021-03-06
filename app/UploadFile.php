@@ -22,7 +22,12 @@ class UploadFiles
         echo file_get_contents('../views/index.html');
     }
 
-    public function process(array $data)
+    /**
+     * @param array $data
+     * @return array
+     * @throws Exception
+     */
+    public function process(array $data): array
     {
         try {
             if (!empty($data['file']['tmp_name'])) {
@@ -32,6 +37,7 @@ class UploadFiles
         } catch(Exception $e){
             throw new Exception('There was a problem '.$e->getMessage());
         }
+
         return [];
     }
 
@@ -87,6 +93,7 @@ class UploadFiles
                 array_push($this->persons, $this->getPersonArray(explode(' ', $fileLine)));
             }
         }
+
         return $this->persons;
     }
 
@@ -124,8 +131,8 @@ class UploadFiles
                     }
                 }
             }
-
         }
+
         return $newPerson;
     }
 
